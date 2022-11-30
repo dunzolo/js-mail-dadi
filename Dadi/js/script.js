@@ -1,9 +1,9 @@
 // 1 - Generare un numero casuale per il giocatore ed assegnarlo ad una variabile
-let num_user = Math.floor(Math.random() * 5 + 1);
+let num_user = Math.floor(Math.random() * 6 + 1);
 console.log('Punteggio giocatore:' + num_user);
 
 // 2 - Generare un secondo numero casuale per il computer ed assegnarlo ad una variabile
-let num_computer = Math.floor(Math.random() * 5 + 1);
+let num_computer = Math.floor(Math.random() * 6 + 1);
 console.log('Punteggio computer:' + num_computer);
 
 // 3 - Controllo il punteggio
